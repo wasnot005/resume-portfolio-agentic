@@ -1,0 +1,21 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 84% 4%;
+  --primary: 222 47% 11%;
+  --primary-foreground: 210 40% 98%;
+  --accent: 210 40% 96%;
+  --accent-foreground: 222 40% 20%;
+  --muted: 215 16% 46%;
+  --muted-foreground: 222 9% 35%;
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 222 84% 4%;
+  --radius: 0.75rem;
+}
+
+* { outline-color: hsl(var(--ring)); }
